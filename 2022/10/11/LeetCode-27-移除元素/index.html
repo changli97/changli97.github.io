@@ -6,17 +6,17 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>LeetCode704. 二分查找 | Hexo</title>
+  <title>LeetCode 27. 移除元素 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="给定一个 n 个元素有序的（升序）整型数组 nums 和一个目标值 target  ，写一个函数搜索 nums 中的 target，如果目标值存在返回下标，否则返回 -1。 示例 1: 输入: nums &#x3D; [-1,0,3,5,9,12], target &#x3D; 9输出: 4解释: 9 出现在 nums 中并且下标为 4示例 2: 输入: nums &#x3D; [-1,0,3,5">
+  <meta name="description" content="给你一个数组 nums 和一个值 val，你需要 原地 移除所有数值等于 val 的元素，并返回移除后数组的新长度。不要使用额外的数组空间，你必须仅使用 O(1) 额外空间并 原地 修改输入数组。元素的顺序可以改变。你不需要考虑数组中超出新长度后面的元素。 示例 1： 输入：nums &#x3D; [3,2,2,3], val &#x3D; 3输出：2, nums &#x3D; [2,2]解释：函">
 <meta property="og:type" content="article">
-<meta property="og:title" content="LeetCode704. 二分查找">
-<meta property="og:url" content="http://example.com/2022/10/11/LeetCode%E7%AE%97%E6%B3%95/index.html">
+<meta property="og:title" content="LeetCode 27. 移除元素">
+<meta property="og:url" content="http://example.com/2022/10/11/LeetCode-27-%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="给定一个 n 个元素有序的（升序）整型数组 nums 和一个目标值 target  ，写一个函数搜索 nums 中的 target，如果目标值存在返回下标，否则返回 -1。 示例 1: 输入: nums &#x3D; [-1,0,3,5,9,12], target &#x3D; 9输出: 4解释: 9 出现在 nums 中并且下标为 4示例 2: 输入: nums &#x3D; [-1,0,3,5">
+<meta property="og:description" content="给你一个数组 nums 和一个值 val，你需要 原地 移除所有数值等于 val 的元素，并返回移除后数组的新长度。不要使用额外的数组空间，你必须仅使用 O(1) 额外空间并 原地 修改输入数组。元素的顺序可以改变。你不需要考虑数组中超出新长度后面的元素。 示例 1： 输入：nums &#x3D; [3,2,2,3], val &#x3D; 3输出：2, nums &#x3D; [2,2]解释：函">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2022-10-11T20:22:54.000Z">
-<meta property="article:modified_time" content="2022-10-12T00:24:51.428Z">
+<meta property="article:published_time" content="2022-10-12T01:35:00.000Z">
+<meta property="article:modified_time" content="2022-10-12T03:45:31.731Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -154,41 +154,41 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-LeetCode算法" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-LeetCode-27-移除元素" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      LeetCode704. 二分查找
+      LeetCode 27. 移除元素
     </h1>
   
 
         
-        <a href="/2022/10/11/LeetCode%E7%AE%97%E6%B3%95/" class="archive-article-date">
-  	<time datetime="2022-10-11T20:22:54.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-10-11</time>
+        <a href="/2022/10/11/LeetCode-27-%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0/" class="archive-article-date">
+  	<time datetime="2022-10-12T01:35:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-10-11</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>给定一个 n 个元素有序的（升序）整型数组 nums 和一个目标值 target  ，写一个函数搜索 nums 中的 target，如果目标值存在返回下标，否则返回 -1。</p>
-<p>示例 1:</p>
-<p>输入: nums &#x3D; [-1,0,3,5,9,12], target &#x3D; 9<br>输出: 4<br>解释: 9 出现在 nums 中并且下标为 4<br>示例 2:</p>
-<p>输入: nums &#x3D; [-1,0,3,5,9,12], target &#x3D; 2<br>输出: -1<br>解释: 2 不存在 nums 中因此返回 -1</p>
+        <p>给你一个数组 nums 和一个值 val，你需要 原地 移除所有数值等于 val 的元素，并返回移除后数组的新长度。不要使用额外的数组空间，你必须仅使用 O(1) 额外空间并 原地 修改输入数组。元素的顺序可以改变。你不需要考虑数组中超出新长度后面的元素。</p>
+<p>示例 1：</p>
+<p>输入：nums &#x3D; [3,2,2,3], val &#x3D; 3<br>输出：2, nums &#x3D; [2,2]<br>解释：函数应该返回新的长度 2, 并且 nums 中的前两个元素均为 2。你不需要考虑数组中超出新长度后面的元素。例如，函数返回的新长度为 2 ，而 nums &#x3D; [2,2,3,3] 或 nums &#x3D; [2,2,0,0]，也会被视作正确答案。</p>
+<p>示例 2：</p>
+<p>输入：nums &#x3D; [0,1,2,2,3,0,4,2], val &#x3D; 2<br>输出：5, nums &#x3D; [0,1,4,0,3]<br>解释：函数应该返回新的长度 5, 并且 nums 中的前五个元素为 0, 1, 3, 0, 4。注意这五个元素可为任意顺序。你不需要考虑数组中超出新长度后面的元素。
+ </p>
 <p>提示：</p>
-<p>你可以假设 nums 中的所有元素是不重复的。<br>n 将在 [1, 10000]之间。<br>nums 的每个元素都将在 [-9999, 9999]之间。</p>
-<p>思路：<br>首先使用二分法的条件应该是：1.给出的数组应该是有序的，如果不是有序，我们需要先用sort函数来排序<br>                       2.数组中无重复元素，因为一旦有重复元素，使用二分查找法返回的元素下标可能不是唯一的</p>
-<h2 id="1-左闭右闭写法："><a href="#1-左闭右闭写法：" class="headerlink" title="1.左闭右闭写法："></a>1.左闭右闭写法：</h2><figure class="highlight plaintext"><figcaption><span>[lang:python] [左闭右闭]</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">class Solution:</span><br><span class="line">    def search(self, nums: List[int], target: int) -&gt; int:</span><br><span class="line">        left = 0</span><br><span class="line">        right = len(nums) - 1</span><br><span class="line">        while left &lt;= right:</span><br><span class="line">            mid = left + ((right - left) // 2)</span><br><span class="line">            if nums[mid] &lt; target:</span><br><span class="line">                left = mid + 1</span><br><span class="line">            elif nums[mid] &gt; target:</span><br><span class="line">                right = mid - 1</span><br><span class="line">            else:</span><br><span class="line">                return mid</span><br><span class="line">        return -1</span><br></pre></td></tr></table></figure>
+<p>0 &lt;&#x3D; nums.length &lt;&#x3D; 100<br>0 &lt;&#x3D; nums[i] &lt;&#x3D; 50<br>0 &lt;&#x3D; val &lt;&#x3D; 100</p>
+<p>本题如果是python解法的话， 我认为使用双指针更好理解，一个指针定在数组头，一个在数组尾。每当left等于target时，将left与right互换，并且right的指针减去1。（如果当right也等于target时，while循环重复，相当于right一直减1，直到找到不同的数字。）</p>
+<figure class="highlight vim"><figcaption><span>[lang:python]</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">class Solution:</span><br><span class="line">    def removeElement(self, nums: List[<span class="keyword">int</span>], val: <span class="keyword">int</span>) -&gt; <span class="keyword">int</span>:</span><br><span class="line">        <span class="keyword">left</span> = <span class="number">0</span></span><br><span class="line">        <span class="keyword">right</span> = <span class="built_in">len</span>(nums) - <span class="number">1</span></span><br><span class="line"></span><br><span class="line">        <span class="keyword">while</span> <span class="keyword">left</span> &lt;= <span class="keyword">right</span>:</span><br><span class="line">            <span class="keyword">if</span> nums[<span class="keyword">left</span>] == val:</span><br><span class="line">                nums[<span class="keyword">left</span>], nums[<span class="keyword">right</span>] = nums[<span class="keyword">right</span>], nums[<span class="keyword">left</span>]</span><br><span class="line">                <span class="keyword">right</span> -= <span class="number">1</span></span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                <span class="keyword">left</span> += <span class="number">1</span></span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">left</span></span><br></pre></td></tr></table></figure>
 
+<p>JavaScript版本：</p>
+<figure class="highlight coq"><figcaption><span>[lang:JavaScript]</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">var removeElement = function(nums, val) &#123;</span><br><span class="line">    const n = nums.length;</span><br><span class="line">    <span class="keyword">let</span> <span class="built_in">left</span> = <span class="number">0</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">let</span> <span class="built_in">right</span> = <span class="number">0</span>; <span class="built_in">right</span> &lt; n; <span class="built_in">right</span>++) &#123;</span><br><span class="line">        <span class="keyword">if</span> (nums[<span class="built_in">right</span>] !== val) &#123;</span><br><span class="line">            nums[<span class="built_in">left</span>] = nums[<span class="built_in">right</span>]</span><br><span class="line">            <span class="built_in">left</span>++</span><br><span class="line">        &#125;</span><br><span class="line">    &#125; </span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">left</span></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
-<p>注意1: 中间值mid如果是 mid &#x3D; (left + right)&#x2F;2, 那么两个 int 型相加可能会越界, 所以我们要写成:<br>mid &#x3D; left + ((right - left) &#x2F; 2)<br>当nums[mid] &gt; target时， 此时需要更新左边的右区域，因为现在是 左闭右闭 的情况，所以right需要等于mid-1。（因为mid已经超过target，所以不是right &#x3D; mid）</p>
-<h2 id="左闭右开写法："><a href="#左闭右开写法：" class="headerlink" title="左闭右开写法："></a>左闭右开写法：</h2><figure class="highlight plaintext"><figcaption><span>[lang:python] [左闭右开]</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">class Solution:</span><br><span class="line">    def search(self, nums: List[int], target: int) -&gt; int:</span><br><span class="line">        left = 0</span><br><span class="line">        right = len(nums)</span><br><span class="line">        while left &lt; right:</span><br><span class="line">            mid = left + ((right - left) // 2)</span><br><span class="line">            if nums[mid] &lt; target:</span><br><span class="line">                left = mid + 1</span><br><span class="line">            elif nums[mid] &gt; target:</span><br><span class="line">                right = mid</span><br><span class="line">            else:</span><br><span class="line">                return mid</span><br><span class="line">        return -1</span><br></pre></td></tr></table></figure>
-
-<p>感想：其实这道题就是在while循环中判断左右指针相等的情况，以及要注意闭合区间的mid是否包括在数组中</p>
-<p>来源：力扣（LeetCode）<br>链接：<a target="_blank" rel="noopener" href="https://leetcode.cn/problems/binary-search">https://leetcode.cn/problems/binary-search</a><br>著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。</p>
+<p>来源：力扣（LeetCode）<br>链接：<a target="_blank" rel="noopener" href="https://leetcode.cn/problems/remove-element">https://leetcode.cn/problems/remove-element</a><br>著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。</p>
 
       
 
@@ -268,7 +268,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2022/10/11/LeetCode%E7%AE%97%E6%B3%95/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2022/10/11/LeetCode-27-%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -280,6 +280,16 @@
 </article>
 
   
+<nav id="article-nav">
+  
+  
+    <a href="/2022/10/11/LeetCode%20704.%20%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">LeetCode 704. 二分查找</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
